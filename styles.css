@@ -28,22 +28,32 @@ gap:10px;
 .latest-news-section{
 	padding:30px;
 	height:140px;
+	width:25%;
+	border-radius:14px;
 	background-color:white;
 }
 .main-article-section{
 	height:170px;
-	width:350px;
+	width:40%;
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 	background-color:white;
 	padding:30px;
+border-radius:14px;
 }
 .pictorial-news-section{
 	height:500px;
-	width:200px;
+	width:25%;
 	background-color:white;
 display:flex;
 flex-direction:column;
-align-items:center
+align-items:center;
+gap:10px;
+border-radius:14px;
+/* object-fit:contain; */
+}
+.pictorial-news-section img{
+	height:120px;
+	width:80%;
 }
